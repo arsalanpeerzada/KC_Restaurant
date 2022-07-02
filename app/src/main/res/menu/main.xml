@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@color/colorWhite"
+            android:title="Home" />
+
+        <item android:id="@+id/nav_msgs"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:iconTint="@color/colorWhite"
+            android:title="Notification" />
+
+        <item android:id="@+id/nav_dua"
+            android:icon="@drawable/ic_control_point_black_24dp"
+            android:iconTint="@color/colorWhite"
+            android:title="New Order" />
+
+        <item android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:iconTint="@color/colorWhite"
+            android:title="Orders" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@color/colorWhite"
+            android:title="LOGOUT" />
+    </group>
+</menu>

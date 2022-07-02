@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/liNotiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:maxWidth="320dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/liNotiQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"/>
+
+        <ImageView
+            android:id="@+id/itemStatusIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/icon_tick_green" />
+    </RelativeLayout>
+</layout>

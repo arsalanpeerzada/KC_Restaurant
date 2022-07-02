@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/colorRedDark">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="15dp"
+                    android:src="@mipmap/icon_menu" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="56dp"
+                    android:gravity="center_vertical"
+                    android:text="New Order (Step 3)"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:padding="7dp"
+                    android:src="@mipmap/icon_notification" />
+            </RelativeLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Select Kitchens"
+                android:textStyle="bold"
+                android:textColor="@color/colorAppBlack"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/kitchenRV"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Select Items"
+                android:textColor="@color/colorAppBlack"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <FrameLayout
+                android:id="@+id/kitchenItemsContainerFL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAppBlack">
+
+            <ImageView
+                android:id="@+id/kitchensBackIV"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/back_text_icon"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/gray_oval"/>
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/gray_oval"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"/>
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/red_oval"/>
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/gray_oval"/>
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/kitchensDoneIV"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/next_text_icon"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</layout>

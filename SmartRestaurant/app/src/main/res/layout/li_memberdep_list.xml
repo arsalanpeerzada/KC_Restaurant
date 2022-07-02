@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints">
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/chkbox" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/checkBox"
+                android:layout_toEndOf="@+id/textView11"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Ali Abbas Husain"
+                android:textColor="#484848"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="0323-231-36565-65565"
+                android:textColor="#484848"
+                android:textSize="17sp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/male_user" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/circleView"
+                android:layout_below="@+id/circleView"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="Picture"
+                android:textColor="#484848"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/img_sign"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/circleView"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/textView5"
+                android:src="@drawable/signature" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView11"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignStart="@+id/img_sign"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="Signature"
+                android:textColor="#484848"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

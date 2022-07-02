@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/authLayoutWidth"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/addRemarksET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:hint="Add remarks..."
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/addRemarksBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Remarks"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

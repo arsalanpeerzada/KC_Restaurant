@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/newgreenbg"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/logintext"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                />
+
+
+            <EditText
+                android:id="@+id/usernameET"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Captain"
+                android:backgroundTint="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:textColor="@color/colorWhite" />
+            <!--  Password Label -->
+
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Password"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite"
+                android:inputType="textPassword"
+                android:textColor="@color/colorWhite" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/locationET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select your location"
+                    android:textSize="17sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorWhite"
+                    android:backgroundTint="@color/colorWhite"
+                    android:textColor="@color/colorWhite"/>
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/icon_dropdown"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/colorWhite"
+                    android:layout_below="@id/locationET"/>
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/loginBtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="10dp"
+                android:text="Login"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <layout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/emailET"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="32dp" />
+
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/emailET" />
+
+            <EditText
+                android:id="@+id/locationET"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:hint="@string/location"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="@dimen/authLayoutWidth"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/locationET" />
+
+        </android.support.constraint.ConstraintLayout>
+    </layout>
+    -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:layout_marginBottom="15sp"
+        android:paddingTop="10dp">
+
+        <RadioButton
+            android:id="@+id/dependantRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:button="@drawable/radio_btn_drawable"/>
+        <TextView
+            android:id="@+id/dependentNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAppBlack"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="70dp"/>
+
+        <TextView
+            android:id="@+id/dependentNIC_NumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dependentNameTV"
+            android:layout_marginStart="70dp"
+            android:layout_toEndOf="@+id/checkBox"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="#484848"
+            android:textSize="17sp" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dependentProfilePic"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/dependentNIC_NumberTV"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/dummy_profile_image" />
+
+        <TextView
+            android:id="@+id/txt_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/dependentProfilePic"
+            android:layout_below="@+id/dependentProfilePic"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Picture"
+            android:textColor="@color/colorAppBlack"
+            android:textSize="19sp" />
+
+        <ImageView
+            android:id="@+id/img_sign"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:layout_alignTop="@+id/dependentProfilePic"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/dependentProfilePic"
+            android:src="@drawable/signature" />
+
+
+        <TextView
+            android:id="@+id/txt_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_pic"
+            android:layout_alignBottom="@+id/txt_pic"
+            android:layout_alignStart="@+id/img_sign"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Signature"
+            android:textColor="@color/colorAppBlack"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

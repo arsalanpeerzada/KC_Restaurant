@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_dependents.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_item_kitchen_items.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_item_kitchen_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_item_order_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_item_order_summary.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_item_placed.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_location.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_memberdep_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_notification_lebel.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/li_notifications_list_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/ll_item_order.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/location_pick_dialog.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/remarks_dialog.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/SmartRestaurant/Smart_Restaurant/app/src/main/res/layout/toolbar.xml" value="0.38697916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorWhite"
+        android:clickable="true"
+        android:focusable="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/notificationLV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            tools:listitem="@layout/li_notifications_list_item" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAppBlack"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:id="@+id/roodt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/noti_tableTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Table"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"/>
+                <View
+                    android:id="@+id/noti_tableIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorWhite"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/noti_itemTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Items"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"/>
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/noti_itemIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorWhite"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/noti_kitchenTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kitchen"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"/>
+                <View
+                    android:id="@+id/noti_kitchenIndicator"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorWhite"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
+

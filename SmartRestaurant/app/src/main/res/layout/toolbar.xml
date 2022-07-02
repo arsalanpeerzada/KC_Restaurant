@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/toolBar"
+        android:layout_marginStart="-10dp"
+        android:background="@color/colorRedDark">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/stepTitleTV"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center_vertical"
+                android:text="Smart Restaurant"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:id="@+id/notificationRL"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/notificationIV"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:padding="4dp"
+                    android:background="@drawable/white_oval"
+                    android:src="@mipmap/icon_notificationgreen" />
+                <TextView
+                    android:id="@+id/notificationBubbleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="5"
+                    android:visibility="gone"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/red_oval_white_border" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/myOrdersFromMenuIV"
+                android:layout_width="40dp"
+                android:layout_height="56dp"
+                android:padding="5dp"
+                android:layout_toLeftOf="@+id/notificationRL"
+                android:src="@drawable/ic_ordergreen" />
+
+            <ImageView
+                android:id="@+id/newOrderMenuIV"
+                android:layout_width="40dp"
+                android:layout_height="56dp"
+                android:padding="5dp"
+                android:layout_toLeftOf="@+id/myOrdersFromMenuIV"
+                android:src="@drawable/ic_newordergreen" />
+
+            <ImageView
+                android:id="@+id/refreshOrderMenuIV"
+                android:layout_width="40dp"
+                android:layout_height="56dp"
+                android:padding="6dp"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/newOrderMenuIV"
+                android:src="@mipmap/icon_sync" />
+
+            <ImageView
+                android:id="@+id/myOrdersFromMenuOnNotificationIV"
+                android:layout_width="40dp"
+                android:layout_height="56dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_ordergreen" />
+
+            <ImageView
+                android:id="@+id/newOrderMenuOnNotificationIV"
+                android:layout_width="40dp"
+                android:layout_height="56dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/myOrdersFromMenuOnNotificationIV"
+                android:src="@drawable/ic_newordergreen" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+</layout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Smart Restaurant</string>
+    <string name="nfc_detection_dummy_text">NFC will be detected in this screen and will display information about member.</string>
+    <string name="proceed">PROCEED</string>
+    <string name="nfc_scan">NFC Scan</string>
+    <string name="orders">Orders</string>
+    <string name="pending">Pending</string>
+    <string name="dummy_dish">Zinger Burger</string>
+    <string name="hold">Hold</string>
+    <string name="dummy_order_number">Order # 2015</string>
+    <string name="close_order">Close Order</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="place_order">Place Order</string>
+    <string name="hold_order">HOLD Order</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="credit">Credit</string>
+    <string name="cash">Cash</string>
+    <string name="enter_service_charge">Enter Service Charge</string>
+    <string name="table_no_21">Table No. 21</string>
+    <string name="my_orders">My Orders</string>
+    <string name="new_order">New Order</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="location">Location</string>
+    <string name="member_id">Member ID</string>
+    <string name="membername">Member Name</string>
+    <string name="order">Order No:</string>
+    <string name="table">Enter Table # </string>
+
+
+    <string name="copyright">© 2018 Karachi Club</string>
+
+    <string name="order_noti">Your Order <b>#242</b> for <b>Abdul Wahab</b> on table #45 is <b>Ready</b></string>
+    <string name="logintext">Hi, Captian how are you today ?\n Enter your credentials for \nlogin in this app</string>
+
+    <string name="loc_prompt">Choose Location</string>
+    <string-array name="loc_arrays">
+        <item>Dine In</item>
+        <item>Swimming Pool</item>
+        <item>Library</item>
+    </string-array>
+
+
+    <string name="cus_prompt">Choose Family Member</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="cus_arrays">
+        <item>Abbas</item>
+        <item>Daniyal</item>
+        <item>Haroon</item>
+        <item>Aamir</item>
+    </string-array>
+</resources>
